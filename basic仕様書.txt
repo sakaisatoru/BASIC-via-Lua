@@ -1,0 +1,44 @@
+BASIC 仕様書
+
+演算精度 
+    Lua 5.1に依存
+
+識別子
+    [%w_]+
+
+文字列
+    ".*"
+    
+変数
+    単純変数
+    
+入出力
+    PRINT
+    LET
+
+演算子
+    + - * / % ^ ( )
+    > < >= <= == <> !=
+    AND OR
+    
+条件分岐
+    IF THEN ELSE ENDIF
+    GOTO
+    FOR TO STEP NEXT
+    
+サブルーチン
+    GOSUB
+    RETURN
+    
+命令
+    END
+
+関数
+    ABS
+    SGN
+    SQRT
+    CEIL
+    FLOOR
+    
+ラベル
+    ([%w_]+)%:
